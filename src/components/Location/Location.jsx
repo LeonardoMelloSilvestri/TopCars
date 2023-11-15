@@ -1,30 +1,31 @@
+import logo from "../../assets/img/logo.png";
 export default function Location() {
   const places = [
     {
       id: 1,
-      city: "Sâo José",
-      img: "./TopCars/img/logo.png",
+      city: "São José",
+      img: logo,
       address:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis iure molestiae ratione nihil, fugiat reprehenderit qui laudantium ut.",
     },
     {
       id: 2,
       city: "Palhoça",
-      img: "./TopCars/img/logo.png",
+      img: logo,
       address:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, consequatur inventore itaque in velit asperiores iure explicabo cumque ullam at.",
     },
     {
       id: 3,
       city: "Florianópolis",
-      img: "./TopCars/img/logo.png",
+      img: logo,
       address:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse accusantium optio excepturi commodi? Doloribus ad voluptatum illum quo praesentium eos.",
     },
     {
       id: 4,
       city: "Joinvile",
-      img: "./TopCars/img/logo.png",
+      img: logo,
       address:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias consequuntur reiciendis inventore, sit facilis libero veniam nulla perferendis est quasi.",
     },
