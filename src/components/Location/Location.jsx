@@ -3,28 +3,28 @@ export default function Location() {
     {
       id: 1,
       city: "Sâo José",
-      img: "./public/img/logo.png",
+      img: "./TopCars/img/logo.png",
       address:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis iure molestiae ratione nihil, fugiat reprehenderit qui laudantium ut.",
     },
     {
       id: 2,
       city: "Palhoça",
-      img: "./public/img/logo.png",
+      img: "./TopCars/img/logo.png",
       address:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, consequatur inventore itaque in velit asperiores iure explicabo cumque ullam at.",
     },
     {
       id: 3,
       city: "Florianópolis",
-      img: "./public/img/logo.png",
+      img: "./TopCars/img/logo.png",
       address:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse accusantium optio excepturi commodi? Doloribus ad voluptatum illum quo praesentium eos.",
     },
     {
       id: 4,
       city: "Joinvile",
-      img: "./public/img/logo.png",
+      img: "./TopCars/img/logo.png",
       address:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias consequuntur reiciendis inventore, sit facilis libero veniam nulla perferendis est quasi.",
     },

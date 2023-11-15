@@ -20,7 +20,7 @@ export default function Hero() {
         <div>
           <img
             className=" w-full md:max-w-3xl"
-            src="./public/img/hero.png"
+            src="./TopCars/img/hero.png"
             alt=""
           />
         </div>
