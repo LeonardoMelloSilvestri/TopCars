@@ -6,43 +6,43 @@ export default function Location() {
       city: "São José",
       img: logo,
       address:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis iure molestiae ratione nihil, fugiat reprehenderit qui laudantium ut.",
+        "Facilis iure molestiae ratione nihil, fugiat reprehenderit qui laudantium ut.",
     },
     {
       id: 2,
       city: "Palhoça",
       img: logo,
       address:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, consequatur inventore itaque in velit asperiores iure explicabo cumque ullam at.",
+        "Ratione, consequatur inventore itaque in velit asperiores iure explicabo cumque ullam at.",
     },
     {
       id: 3,
       city: "Florianópolis",
       img: logo,
       address:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse accusantium optio excepturi commodi? Doloribus ad voluptatum illum quo praesentium eos.",
+        "Esse accusantium optio excepturi commodi? Doloribus ad voluptatum illum quo praesentium eos.",
     },
     {
       id: 4,
       city: "Joinvile",
       img: logo,
       address:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias consequuntur reiciendis inventore, sit facilis libero veniam nulla perferendis est quasi.",
+        "Molestias consequuntur reiciendis inventore, sit facilis libero veniam nulla perferendis est quasi.",
     },
   ];
 
   return (
     <>
       <article className="flex justify-center mt-20">
-        <div className="w-11/12 bg-neutral-100 rounded p-10 shadow-inner">
+        <div className="w-11/12 md:w-9/12 bg-neutral-100 rounded p-10 shadow-inner">
           <h3 className="text-2xl font-semibold">
             Encontre nossa loja mais próxima de você:
           </h3>
-          <div className="flex flex-wrap justify-center gap-6">
+          <div className="grid grid-cols-1 min-[920px]:grid-cols-2 min-[1245px]:grid-cols-4  gap-4">
             {places.map((place) => (
               <div
                 key={place.id}
-                className="flex-auto sm:w-60 rounded overflow-hidden shadow-lg mt-6"
+                className="col-auto rounded overflow-hidden shadow-lg mt-6"
               >
                 <img className="w-full" src={place.img} />
                 <div className="px-6 py-4">

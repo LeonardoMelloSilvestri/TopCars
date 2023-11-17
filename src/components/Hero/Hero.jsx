@@ -1,4 +1,5 @@
 import hero from "../../assets/img/hero.png";
+
 export default function Hero() {
   return (
     <>
@@ -19,7 +20,7 @@ export default function Hero() {
           </button>
         </div>
         <div>
-          <img className="w-full md:max-w-3xl" src={hero} alt="" />
+          <img className="w-full md:max-w-3xl mt-8 lg:mt-0" src={hero} alt="" />
         </div>
       </article>
     </>
