@@ -33,7 +33,10 @@ export default function Location() {
 
   return (
     <>
-      <article className="flex justify-center mt-20">
+      <article
+        id="location"
+        className="z-20 relative flex justify-center mt-28"
+      >
         <div className="w-11/12 md:w-9/12 bg-neutral-100 rounded p-10 shadow-inner">
           <h3 className="text-2xl font-semibold">
             Encontre nossa loja mais próxima de você:

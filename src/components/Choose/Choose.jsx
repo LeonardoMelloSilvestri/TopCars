@@ -30,14 +30,14 @@ export default function Choose() {
   ];
   return (
     <>
-      <article className="flex justify-center mt-20">
+      <article id="choose" className="flex justify-center mt-28">
         <div className="flex flex-col w-11/12 md:w-9/12 min-[942px]:flex-row gap-10 md:gap-20">
           <div className="flex-1">
             <h3 className="text-2xl font-semibold mb-3">
-              O que podemos lhe oferecer
+              Melhor custo benefício que você encontrará!
             </h3>
-            <h1 className="text-3xl font-semibold mb-3">
-              Melhor custo benefício que vc encontrará
+            <h1 className="text-4xl font-semibold text-orange-600 mb-3">
+              Nossas Vantagens
             </h1>
             <p className="text-slate-500">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
@@ -47,9 +47,6 @@ export default function Choose() {
               sit amet consectetur adipisicing elit. Velit placeat blanditiis
               non odit excepturi.
             </p>
-            <button className="text-white bg-orange-600 font-semibold rounded p-4 mt-6 shadow-lg shadow-orange-700 hover:scale-105">
-              Mais detalhes
-            </button>
           </div>
           <div className="flex-col flex-1">
             {options.map((option) => (
