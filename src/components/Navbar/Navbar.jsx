@@ -15,21 +15,36 @@ export default function Navbar() {
           </h1>
         </div>
         <div className="max-[900px]:hidden flex ml-auto gap-8 text-lg text-white drop-shadow-lg font-semibold">
-          <h1 className="hover:scale-110 hover:text-orange-500 transition-all duration-200 cursor-pointer">
+          <a
+            href="#location"
+            className="hover:scale-110 hover:text-orange-500 transition-all duration-200 cursor-pointer"
+          >
             Lojas
-          </h1>
-          <h1 className="hover:scale-110 hover:text-orange-500 transition-all duration-200 cursor-pointer">
+          </a>
+          <a
+            href="#services"
+            className="hover:scale-110 hover:text-orange-500 transition-all duration-200 cursor-pointer"
+          >
             Serviços
-          </h1>
-          <h1 className="hover:scale-110 hover:text-orange-500 transition-all duration-200 cursor-pointer">
+          </a>
+          <a
+            href="#choose"
+            className="hover:scale-110 hover:text-orange-500 transition-all duration-200 cursor-pointer"
+          >
             Vantagens
-          </h1>
-          <h1 className="hover:scale-110 hover:text-orange-500 transition-all duration-200 cursor-pointer">
+          </a>
+          <a
+            href="#testimonials"
+            className="hover:scale-110 hover:text-orange-500 transition-all duration-200 cursor-pointer"
+          >
             Testemunhas
-          </h1>
-          <h1 className="hover:scale-110 hover:text-orange-500 transition-all duration-200 cursor-pointer">
+          </a>
+          <a
+            href="#FAQ"
+            className="hover:scale-110 hover:text-orange-500 transition-all duration-200 cursor-pointer"
+          >
             FAQ
-          </h1>
+          </a>
         </div>
         <div className="min-[900px]:hidden flex ml-auto">
           <i
