@@ -16,7 +16,7 @@ export default function Services() {
     },
     {
       id: 3,
-      name: "Pintura Automotivca",
+      name: "Pintura Automotiva",
       description:
         "Ut in libero sit amet ipsum fermentum vulputate id vitae nibh. Praesent faucibus interdum tempus.",
       icon: "fa-solid fa-brush",

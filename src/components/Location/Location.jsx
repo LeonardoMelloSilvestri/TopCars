@@ -24,7 +24,7 @@ export default function Location() {
     },
     {
       id: 4,
-      city: "Joinvile",
+      city: "Joinville",
       img: logo,
       address:
         "Molestias consequuntur reiciendis inventore, sit facilis libero veniam nulla perferendis est quasi.",
